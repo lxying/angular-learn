@@ -1,0 +1,15 @@
+@import './pages/pages.scss';
+.root-nav{
+    display: flex;
+    justify-content: start;
+    li{
+        margin: 8px 10px;
+        padding: 4px 8px ;
+        // background: #ff9124;
+        a{
+            color: #333;
+            font-size: 18px;
+          
+        }
+    }
+}

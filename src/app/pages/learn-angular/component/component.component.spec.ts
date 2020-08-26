@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LearnTypescriptComponent } from './learn-typescript.component';
+import { ComponentComponent } from './component.component';
 
-describe('LearnTypescriptComponent', () => {
-  let component: LearnTypescriptComponent;
-  let fixture: ComponentFixture<LearnTypescriptComponent>;
+describe('ComponentComponent', () => {
+  let component: ComponentComponent;
+  let fixture: ComponentFixture<ComponentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LearnTypescriptComponent ]
+      declarations: [ ComponentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LearnTypescriptComponent);
+    fixture = TestBed.createComponent(ComponentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -4,6 +4,7 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
+    // 设定测试框架为jasmine
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
@@ -20,11 +21,14 @@ module.exports = function (config) {
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
     },
+    // 通知发送结果， 打印到控制台或存入文件
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
+    // 更改代码测试将重新运行并生成报告
     autoWatch: true,
+    // 测试应该运行的浏览器
     browsers: ['Chrome'],
     singleRun: false,
     restartOnFileChange: true

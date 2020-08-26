@@ -1,0 +1,18 @@
+<h3>组件和模板</h3>
+<h4>trackBy可以在for循环中减少dom操作，对修改的相应的值进行追踪</h4>
+<p *ngFor="let item of trackByItems; trackBy">
+  歌曲： {{ item.name }} 演唱： {{ item.singer }}
+</p>
+
+<hr />
+<h3>animation</h3>
+<p #animateEle></p>
+{{ animateEle }}
+<button (click)="(makeAnimation)"></button>
+
+<h3>eventEmitter自定义事件</h3>
+{{ customEventValue }}
+<!-- <app-custom-event
+  [customValue]="customEventValue"
+  (customEvent)="onCustomEvent($event)"
+></app-custom-event> -->

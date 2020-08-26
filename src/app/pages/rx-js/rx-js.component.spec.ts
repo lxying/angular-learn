@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LearnAngularComponent } from './learn-angular.component';
+import { RxJsComponent } from './rx-js.component';
 
-describe('LearnAngularComponent', () => {
-  let component: LearnAngularComponent;
-  let fixture: ComponentFixture<LearnAngularComponent>;
+describe('RxJsComponent', () => {
+  let component: RxJsComponent;
+  let fixture: ComponentFixture<RxJsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LearnAngularComponent ]
+      declarations: [ RxJsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LearnAngularComponent);
+    fixture = TestBed.createComponent(RxJsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

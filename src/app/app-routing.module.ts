@@ -1,15 +1,10 @@
-// import { LearningComponent } from './pages/learning/learning.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LearnTypescriptComponent } from './pages/learn-typescript/learn-typescript.component';
 import { LearnAngularComponent } from './pages/learn-angular/learn-angular.component';
-import { LearningComponent } from './pages/learning/learning.component';
+import { RxJsComponent } from './pages/rx-js/rx-js.component';
 
 const routes: Routes = [
-  {
-    path: 'ts',
-    component: LearningComponent,
-  },
   {
     path: 'ts',
     component: LearnTypescriptComponent,
@@ -17,6 +12,10 @@ const routes: Routes = [
   {
     path: 'angular',
     component: LearnAngularComponent,
+  },
+  {
+    path: 'rxJs',
+    component: RxJsComponent,
   },
 ];
 

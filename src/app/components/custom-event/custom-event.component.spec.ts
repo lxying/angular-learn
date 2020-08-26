@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LearningComponent } from './learning.component';
+import { CustomEventComponent } from './custom-event.component';
 
-describe('LearningComponent', () => {
-  let component: LearningComponent;
-  let fixture: ComponentFixture<LearningComponent>;
+describe('CustomEventComponent', () => {
+  let component: CustomEventComponent;
+  let fixture: ComponentFixture<CustomEventComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LearningComponent ]
+      declarations: [ CustomEventComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LearningComponent);
+    fixture = TestBed.createComponent(CustomEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
